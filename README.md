@@ -9,10 +9,10 @@
 ## Course Plan (tentative)
 - Week 1:CIA and ISMS
 - Week 2:Cryptography
-- Week :Network and network Protocal
+- Week :Network and network Protocol
 - Week : Newtwork security
-- Web protocal
-- web security
+- Web Protocol:HTTP vs HTTPs
+- Web App security
 - End-point Security(1)Windows Security
 - End-point Security(2)Linux Security
 - Penetration Test
