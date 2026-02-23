@@ -2,7 +2,7 @@
 - usual grades and class performance
   - Attendance(10%)
   - Cryptography(10%)
-  - Network Security
+  - Wireshark and Network Analysis(10%)
 - mid-term(30%) ==> Web Security Testing Report
 - Final Report(30%) ==>Penetration Test Report
 
