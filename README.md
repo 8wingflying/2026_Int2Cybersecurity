@@ -1,4 +1,4 @@
-# 2026_Int2Cybersecurity
+# 2026_Introduction to Cybersecurity
 - usual grades and class performance
   - Attendance(10%)
   - Cryptography(10%)
