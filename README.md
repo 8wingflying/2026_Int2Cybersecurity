@@ -8,7 +8,7 @@
 - mid-term(30%) ==> Web Security Testing Report
 - Final Report(30%) ==>Penetration Test Report
 
-## Information Security: Course Syllabus (18 Weeks)
+## Course Syllabus (18 Weeks)
 - Module 1: Foundations & The Landscape
   - Week 1: Introduction to Information Security
     - Using CTFs to Learn Cybersecurity
