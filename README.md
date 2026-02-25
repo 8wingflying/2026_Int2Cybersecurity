@@ -1,4 +1,7 @@
 # 2026_Introduction to Information Security(Cybersecurity)
+
+![DADA.jpg](DADA.jpg)
+
 ## Grading Policy / Grading Scale
 - "The final grade is calculated based on attendance,class performance, midterms, and the final exam."
 - usual grades and class performance
