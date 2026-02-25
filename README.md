@@ -1,4 +1,6 @@
 # 2026_Introduction to Cybersecurity
+## Grading Policy / Grading Scale
+- "The final grade is calculated based on attendance,class performance, midterms, and the final exam."
 - usual grades and class performance
   - Attendance(10%)
   - Cryptography(10%)
@@ -6,13 +8,86 @@
 - mid-term(30%) ==> Web Security Testing Report
 - Final Report(30%) ==>Penetration Test Report
 
-## Course Plan (tentative)
-- Week 1:CIA and ISMS
-- Week 2:Cryptography
-- Week :Network and network Protocol
-- Week : Newtwork security
-- Web Protocol:HTTP vs HTTPs
-- Web App security
-- End-point Security(1)Windows Security
-- End-point Security(2)Linux Security
-- Penetration Test
+## Information Security: Course Syllabus (18 Weeks)
+- Module 1: Foundations & The Landscape
+  - Week 1: Introduction to Information Security
+    - The CIA Triad (Confidentiality, Integrity, Availability).
+    - Threats, Vulnerabilities, and Assets.
+    - Security Governance and Risk Management.
+  - Week 2: Security Policies and Compliance
+    - Laws, Ethics, and Regulations (GDPR, HIPAA, etc.).
+    - Security Frameworks (NIST, ISO 27001).
+    - Developing effective security policies.
+- Module 2: Technical Security Pillars
+  - Week 3: Cryptography Fundamentals
+    - Symmetric vs. Asymmetric encryption.
+    - Hashing algorithms and Digital Signatures.
+    - Public Key Infrastructure (PKI)
+    - Hands-on Lab:CTF 
+  - Week 4: Network Security1:
+    - Computer network
+    - OSI Model and TCP/IP
+    - DNS
+    - TCP vs UDP
+    - IP
+    - Hands-on Lab:network commands ipconfig, ping , nslookup, netstat
+  - Week 5:Network Security 2:Hands-on Lab:Wireshark and network analysis
+    - Wireshark
+    - Network analysis 
+  - Week 6:Network Security 3:
+    - Firewalls (Stateful vs. Next-Gen).
+    - Intrusion Detection and Prevention Systems (IDS/IPS).
+    - Virtual Private Networks (VPNs).
+    - Secure Protocols (SSH, TLS/SSL).
+- Module 3:Web Security
+  - Week 7:Web Architecture & Protocols
+    - Web Server vs Web Applications
+    - HTTP/HTTPS deep dive (Headers, Verbs, Status Codes).
+    - Practical Hands-on Lab: XAMPP
+  - Week 8: Hands-on Lab
+    - The OWASP Top 10 & Core Vulnerabilities
+    - Setting up a local "Damn Vulnerable Web Application" (DVWA) environment.
+    - Mapping a target application's attack surface.
+- Week 9: Mid-term Review & Assessment
+  - Practical lab exam 
+- Module 4:End-point Security
+  - Week 10:Identity and Access Management (IAM)
+    - Authentication, Authorization, and Accounting (AAA).
+    - Multi-Factor Authentication (MFA).
+    - Biometrics and Zero Trust Architecture.
+  - Week 11:Windows Operating System 
+    - kernel vs shell
+    - CMD vs powershell
+    - Log and Event viewer
+    - Hands-on Lab:CMD vs powershell
+  - Week 12:Linux Operating System 
+    - Linux Operating System
+    - Linux kernel vs shell
+    - Hands-on Lab: Linux Commands
+  - Week 13:Kali linux vs Parrot Security
+- Module 5: Security Testing
+  - Week 14:Vulnarability Scan
+  - Week 15:Penetration test 1:Methodology and tools
+    - Methodology: OSSTMM PTES
+    - Scanning Tools:Active reconnaissance with Nmap, Masscan, and Hping3. 
+  - Week 16:Penetration test 2:Linux(Metasploitable 2)
+    - Enumeration and Linux Service Exploitation
+      - Objective: Master the reconnaissance phase and exploit common misconfigured Linux services.
+      - Lab Setup & Infrastructure Mapping
+        - Setting up the Virtual Lab (Kali Linux & Metasploitable 2).
+        - Network Discovery: Using fping and Nmap to identify the target.
+        - Service Fingerprinting: Identifying versions of running services (FTP, SSH, Telnet, SMTP).
+      - Exploiting Misconfigured Backdoors & FTP
+        - The VSFTPD 2.3.4 Backdoor: Manual vs. Metasploit exploitation.
+        - Brute-forcing Services: Using Hydra and Metasploit’s auxiliary/scanner/ftp/ftp_login.
+        - Understanding the risks of anonymous FTP access.
+   - Week 17: Penetration test 3:Widnows server(Metasploitable 3)
+     - Modern Reconnaissance & Environment Setup
+     - Lab Deployment: Vagrant/VirtualBox setup for Metasploitable 3 (Win/Linux).
+     - Advanced Nmap: Scripting Engine (NSE) for vulnerability detection.
+     - Elasticsearch: Exploiting unauthenticated access and RCE. 
+- Week 18:Final Capstone Project
+  - Perform a mini-penetration test on a controlled environment.
+  - Drafting a professional Vulnerability Assessment report.
+
+
