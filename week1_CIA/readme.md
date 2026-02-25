@@ -80,9 +80,13 @@ D) Non-repudiation
 - Threat
   - A potential cause of an unwanted incident that may harm an asset.
   - Hackers, Malware, Natural disasters, Insider threats.
+
 #### The Relationship (The Risk Equation)
 - Security professionals often use a conceptual formula to show how these elements create Risk
+
     $$Risk = Assets \times Threats \times Vulnerabilities$$
+
+![RISK.png](RISK.png)
 
 - No Vulnerability? Even if a threat exists (a hacker), there is no risk if there is no way in.
 - No Threat? Even if a system is weak, there is no risk if no one or nothing can exploit it.
