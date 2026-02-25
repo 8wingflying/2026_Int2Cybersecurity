@@ -96,7 +96,7 @@ D) Non-repudiation
 - To put this into a practical context (like a blog project or a corporate database)
 - Asset: The user database containing emails and hashed passwords.
 - Vulnerability: A SQL injection flaw in the login form.
-- Threat: A malicious actor using automated scripts to find exploitable forms.
+- Threat: A malicious actor using automated scripts(SQLMAP) to find exploitable forms.
 - Risk: The unauthorized disclosure of user data, leading to legal fines and loss of trust.
 
 ## Mitigation Strategies
