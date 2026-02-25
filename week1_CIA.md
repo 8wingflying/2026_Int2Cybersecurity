@@ -1,8 +1,12 @@
 # Week 1: Introduction to Information Security
 - The CIA Triad (Confidentiality, Integrity, Availability).
 - Threats, Vulnerabilities, and Assets.
-- OWASP Security Principles
-  - https://devguide.owasp.org/en/02-foundations/03-security-principles/ 
+- Exercise ==> OWASP Security Principles 
+  - https://devguide.owasp.org/en/02-foundations/03-security-principles/
+
+## Using CTFs to Learn Cybersecurity
+- Level up your Security Skills with CTFs
+- CTF ==> 120.114.62.209
 
 ## The CIA Triad (Confidentiality, Integrity, Availability)
 - Information Security Management Concepts:Core Objective: The CIA Triad
