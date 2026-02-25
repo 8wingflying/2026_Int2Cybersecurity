@@ -120,3 +120,6 @@ B) High
 C) Moderate
 D) Low/Negligible
 ```
+## That's all for today, as I have a school meeting shortly.
+- I have a school meeting this Wednesday, so our class time will be changed to 11:10–13:00.
+- We’ll make up the rest of the hours later on. 
