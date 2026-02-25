@@ -7,6 +7,9 @@
 ## Using CTFs to Learn Cybersecurity
 - Level up your Security Skills with CTFs
 - CTF ==> 120.114.62.209
+- CTF（Capture The Flag，奪旗賽）是一種流行的資訊安全競賽，參賽者透過解密、漏洞利用（Pwn）、逆向工程（Reverse）、Web 滲透、數位鑑識（Forensics）或雜項（Misc）等技術，從主辦方環境中找出特定的「Flag」字串來得分。
+- 這是一種考驗技術、經驗與資安應用能力的駭客攻防競賽。
+- 這是一種考驗技術、經驗與資安應用能力的駭客攻防競賽。
 
 ## The CIA Triad (Confidentiality, Integrity, Availability)
 - Information Security Management Concepts:Core Objective: The CIA Triad
