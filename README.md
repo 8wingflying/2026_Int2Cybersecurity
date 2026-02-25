@@ -11,9 +11,9 @@
 ## Information Security: Course Syllabus (18 Weeks)
 - Module 1: Foundations & The Landscape
   - Week 1: Introduction to Information Security
+    - Using CTFs to Learn Cybersecurity
     - The CIA Triad (Confidentiality, Integrity, Availability).
     - Threats, Vulnerabilities, and Assets.
-    - Security Governance and Risk Management.
   - Week 2: Security Policies and Compliance
     - Laws, Ethics, and Regulations (GDPR, HIPAA, etc.).
     - Security Frameworks (NIST, ISO 27001).
