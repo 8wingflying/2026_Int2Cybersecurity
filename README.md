@@ -1,4 +1,4 @@
-# 2026_Introduction to Cybersecurity
+# 2026_Introduction to Information Security(Cybersecurity)
 ## Grading Policy / Grading Scale
 - "The final grade is calculated based on attendance,class performance, midterms, and the final exam."
 - usual grades and class performance
