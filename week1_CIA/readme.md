@@ -38,6 +38,10 @@
     - Access Control
     - Capacity Planning | Backups | Fault Tolerance | Redundancy | Load Balancing
 
+## Hash function md5 ==> md5sum
+
+![hash.png](hash.png)
+
 ## Recommended Readings
 - https://devguide.owasp.org/en/02-foundations/01-security-fundamentals/
 
