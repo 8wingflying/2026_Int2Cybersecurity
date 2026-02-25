@@ -16,7 +16,7 @@
     - Threats, Vulnerabilities, and Assets.
   - Week 2: Security Policies and Compliance
     - Laws, Ethics, and Regulations (GDPR, HIPAA, etc.).
-    - Security Frameworks (NIST, ISO 27001).
+    - Security Frameworks (NIST CSF 2, ISO 27001:2022).
     - Developing effective security policies.
 - Module 2: Technical Security Pillars
   - Week 3: Cryptography Fundamentals
