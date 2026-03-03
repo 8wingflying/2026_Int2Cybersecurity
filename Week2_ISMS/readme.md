@@ -1,8 +1,10 @@
 ## Week 2
-- ISMS
-  - NIST CSF 2.0
-  - ISO 27001:2022
-    - PDCA
+- Part A.ISMS
+  - ISMS
+  - Two major frameworks
+    - NIST CSF 2.0
+    - ISO 27001:2022
+      - PDCA
   - 【Check the website for details】
     - https://www.nist.gov/cyberframework
     - https://www.iso.org/standard/27001
