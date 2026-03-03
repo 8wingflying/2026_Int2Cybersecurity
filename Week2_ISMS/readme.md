@@ -29,7 +29,7 @@
     - ISO 27001 Annex A : A list only 
       - [ISO 27001 Annex A Controls: The Complete 2022 Reference List (93 Controls)](https://hightable.io/iso-27001-annex-a-controls-reference-guide/) 
     - ISO 27002:2022 in detail
-- Risk Management 
+- Part B.Risk Management 
   - Risk
   - Risk Management
   - Risk Management Framework
