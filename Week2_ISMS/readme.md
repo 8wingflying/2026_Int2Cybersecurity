@@ -2,15 +2,38 @@
 - ISMS
   - NIST CSF 2.0
   - ISO 27001:2022
+    - PDCA
+  - 【Check the website for details】
+    - https://www.nist.gov/cyberframework
+    - https://www.iso.org/standard/27001
 - Laws, Ethics, and Regulations (GDPR, HIPAA, etc.)
   - GDPR 
 - Security Policy
+  - high-level Information Security Policy vs  more specific Topic-Specific Policies
+    - Topic-Specific Policies
+      - backup policy
+      - Access Control Policy (ACP) 
+  - 範例:如果你是TSMC資安長,你如何建構公司的安全政策
+  - If you were the CISO of TSMC, how would you construct the company's security policies?
+  - 【Reading Material】
+    - https://en.wikipedia.org/wiki/Security_policy
+    - https://www.varonis.com/blog/what-is-a-security-policy
+- Security controls 
+  - NIST
+    - NIST SP 800-53
+    - NIST SP 800-53A
+    - NIST SP 800-53B 
+  - ISO
+    - ISO 27001 Annex A : A list only 
+      - [ISO 27001 Annex A Controls: The Complete 2022 Reference List (93 Controls)] 
+    - ISO 27002:2022 in detail
 - Risk Management 
   - Risk
+  - Risk Management
   - Risk Management Framework
-    - NIST RMF
-    - ISO 27005:2022 
-- CTF Games
+    - NIST RMF ==> https://csrc.nist.gov/Projects/risk-management/about-rmf
+    - ISO 27005:2022 ==> https://www.iso.org/standard/80585.html 
+- CTF Games ==> If time permits, we’ll let you guys play some CTF during our weekly classes.
 
-## Exercise:
-- Write a report about about ISMS including NIST CSF 2.0 and ISO 27001
+## Exercise: in English 
+- Prepare a report regarding ISMS and Risk Management, including a presentation of 50 to 100 slides.
