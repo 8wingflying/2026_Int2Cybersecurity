@@ -2,7 +2,7 @@
 - Part A.ISMS
   - ISMS
   - Two major frameworks
-    - NIST CSF 2.0
+    - NIST CSF 2.0  ==> https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
     - ISO 27001:2022
       - PDCA
   - 【Check the website for details】
