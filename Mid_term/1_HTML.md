@@ -33,6 +33,17 @@
 </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html lang="fil"> <head>
+    <meta charset="UTF-8"> <title>Mabuhay!</title>
+</head>
+<body>
+    <h1>Maligayang Pagdating!</h1>
+    <p>Kumusta ka? Ang Pilipinas ay isang magandang bansa.</p>
+</body>
+</html>
+```
 ## HTML範例3:<html> 標籤常用的屬性分類
 - head標籤常用的屬性
 - body標籤常用的屬性
