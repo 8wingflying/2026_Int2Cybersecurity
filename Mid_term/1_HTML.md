@@ -70,6 +70,12 @@
 ...
 </html>
 ```
+##
+- https://www.youtube.com/watch?v=bSiMSSeno9g
+```html
+<iframe width="420" height="345" src="https://www.youtube.com/embed/bSiMSSeno9g">
+</iframe>
+```
 
 ## HTML範例4:表單
 ```html
