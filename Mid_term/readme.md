@@ -1,6 +1,7 @@
 ## Web Security Teting Reprot
 - HTTP procotal
   - Http vs Https
+  - Http 1.1/2.0/3.0
   - request response header
   - CTF examples about Http Method
 - Web Programming ==> XAMPP
