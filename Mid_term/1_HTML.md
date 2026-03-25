@@ -44,6 +44,19 @@
 </body>
 </html>
 ```
+```
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайн байна уу!</title>
+</head>
+<body>
+    <h1>Монгол Улс</h1>
+    <p>Сайн байна уу? (你好嗎？)</p>
+</body>
+</html>
+```
 ## HTML範例3:<html> 標籤常用的屬性分類
 - head標籤常用的屬性
 - body標籤常用的屬性
