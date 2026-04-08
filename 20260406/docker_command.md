@@ -89,6 +89,7 @@ Commands:
 
 Run 'docker COMMAND --help' for more information on a command.
 ---
+```
 ## docker ps
 ```
 docker ps --help
