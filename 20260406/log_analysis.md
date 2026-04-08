@@ -1,5 +1,5 @@
 
-## 
+## access.log
 ```
 root@fa2230a50882:/var/log/apache2# cat access.log 
 172.17.0.1 - - [08/Apr/2026:03:36:17 +0000] "GET / HTTP/1.1" 302 479 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
@@ -36,4 +36,13 @@ root@fa2230a50882:/var/log/apache2# cat access.log
 172.17.0.1 - - [08/Apr/2026:03:53:32 +0000] "GET /vulnerabilities/exec/ HTTP/1.1" 200 1716 "http://127.0.0.1:8888/security.php" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
 172.17.0.1 - - [08/Apr/2026:03:54:44 +0000] "POST /vulnerabilities/exec/ HTTP/1.1" 200 1929 "http://127.0.0.1:8888/vulnerabilities/exec/" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
 
+```
+## error log
+```
+root@fa2230a50882:/var/log/apache2# cat error.log 
+[Wed Apr 08 03:35:17.146683 2026] [mpm_prefork:notice] [pid 303] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Wed Apr 08 03:35:17.146724 2026] [core:notice] [pid 303] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Apr 08 03:38:07.369995 2026] [:error] [pid 316] [client 172.17.0.1:41668] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://127.0.0.1:8888/setup.php
+cat: /etc/shadow: Permission denied
+ping: unknown host
 ```
