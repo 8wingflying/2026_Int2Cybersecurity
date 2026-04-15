@@ -11,4 +11,18 @@
   - Server-Side programing
     - PHP
 - Web Security
+  - OWASP TOP 10
+    - [OWASP Top 10:2021](OWASP Top 10:2025)
+    - [**OWASP Top 10:2025**](https://owasp.org/Top10/2025/)
+    - [OWASP API Security Top 10 Vulnerabilities – 2025](https://www.clouddefense.ai/api-security-top-10-vulnerabilities/)
+  - Web Vulnerabilities
+    - SQL injection
+    - Command injection
+    - XSS(Javascript injection)
+    - File inclusion Vulnerabilities ==> Local(LFI) vs Remote(RFI)
+    - File Upload Vulnerabilities
+    - A path traversal attack (also known as directory traversal)
+    - XXE
+    - CSRF
+    - SSRF
 - DVWA testing  
