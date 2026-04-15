@@ -19,7 +19,7 @@
     - PHP
 - Web Security(20%)
   - OWASP TOP 10
-    - [OWASP Top 10:2021](OWASP Top 10:2025)
+    - [OWASP Top 10:2021](https://owasp.org/Top10/2021/)
     - [**OWASP Top 10:2025**](https://owasp.org/Top10/2025/)
     - [OWASP API Security Top 10 Vulnerabilities – 2025](https://www.clouddefense.ai/api-security-top-10-vulnerabilities/)
   - Web Vulnerabilities
