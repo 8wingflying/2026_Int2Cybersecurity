@@ -1,4 +1,4 @@
-## Web Security Teting Reprot
+## Web Security Testing Reprot
 - HTTP procotal(10%)
   - Http vs Https
   - Http 1.1/2.0/3.0
