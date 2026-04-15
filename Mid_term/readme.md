@@ -1,16 +1,16 @@
 ## Web Security Teting Reprot
-- HTTP procotal
+- HTTP procotal(10%)
   - Http vs Https
   - Http 1.1/2.0/3.0
   - request response header
   - CTF examples about Http Method
-- Web Programming ==> XAMPP
+- Web Programming ==> XAMPP(10%)
   - Client-side programing
     - HTML CSS JAVASCRIPT
     - code 
   - Server-Side programing
     - PHP
-- Web Security
+- Web Security(20%)
   - OWASP TOP 10
     - [OWASP Top 10:2021](OWASP Top 10:2025)
     - [**OWASP Top 10:2025**](https://owasp.org/Top10/2025/)
@@ -25,4 +25,30 @@
     - XXE
     - CSRF
     - SSRF
-- DVWA testing  
+- DVWA testing(60%)
+  - Walkthrough
+    - https://github.com/Abdy01/DVWA-Walkthrough  
+  - criteria(every analysis should contain the following:)
+    - Attack pattern
+    - Defnesive technoly
+    - Code review 
+  - commanf injection
+  - Sql injection
+  - file upload
+  - XSS
+
+## example :command injection
+- Attack pattern
+  - low ==>www.ksu.edu.tw; echo A888168
+  - med ==>www.ksu.edu.tw| echo A888168
+  - high ==>www.ksu.edu.tw ;| echo A888168 
+  - impossible ==> NO Attack
+- Defnesive technoly ==> Blacklist
+  - `;` ==> ""
+  - `;` `|`==> ""
+  - impossible ==> See code review
+- Code review ==> PHP code
+  - low level
+  - med. level
+  - high level
+  - impossible level 
