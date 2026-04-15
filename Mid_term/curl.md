@@ -263,3 +263,120 @@ Usage: curl [options...] <url>
  -w, --write-out <format> Use output FORMAT after completion
      --xattr       Store metadata in extended file attributes
 ```
+
+## curl 指令的說明
+
+- curl 是一個強大的命令行工具，用於透過各種網路協定（如 HTTP, HTTPS, FTP 等）傳輸資料。
+- 面對這麼長的參數列表，我們可以將其分類為幾個核心功能區塊，幫助你快速掌握重點：
+
+### 1. 基礎請求與資料傳送
+- 這些是最常用的參數，決定你如何與伺服器溝通。
+```
+-X, --request <method>: 指定 HTTP 請求方法（如 GET, POST, PUT, DELETE）。
+-d, --data <data>: 傳送 POST 資料（通常用於 API 呼叫或表單提交）。
+-F, --form <name=content>: 模擬表單上傳（如上傳檔案）。
+-H, --header <header>: 自定義 HTTP 標頭（例如 Content-Type: application/json）。
+-G, --get: 把 -d 裡面的資料轉化為 URL 參數，改用 GET 方式發送。
+```
+### 2. 輸出與存檔
+- 決定伺服器回傳的東西要放哪裡。
+```
+-o, --output <file>: 將結果儲存到指定的檔案。
+-O, --remote-name: 將結果儲存成遠端伺服器上的原始檔名。
+-i, --include: 在輸出結果中顯示伺服器回傳的 HTTP Header。
+-v, --verbose: 偵錯神器。詳細列出連線過程（包括請求頭與回應頭）。
+-s, --silent: 靜音模式，不顯示進度條或錯誤訊息。
+```
+### 3. 安全與驗證
+- 處理帳號密碼、憑證與加密。
+```
+-u, --user <user:password>: 提供伺服器驗證的帳號密碼。
+-k, --insecure: 重要！ 忽略 SSL 憑證檢查（用於測試自簽憑證的開發環境）。
+--cacert <file>: 指定特定 CA 憑證來驗證伺服器。
+-L, --location: 如果伺服器回傳 301/302 轉址，自動跟隨跳轉到新網址。
+```
+### 4. 網路與代理 (Proxy)
+- 調整連線方式。
+```
+-x, --proxy [protocol://]host[:port]: 透過代理伺服器發送請求。
+--connect-timeout <seconds>: 設定嘗試連線的最長等待時間。
+-m, --max-time <seconds>: 設定整個傳輸操作的最長允許時間。
+-r, --range <range>: 斷點續傳或下載特定範圍的內容（Byte Range）。
+```
+### 常見組合範例
+- 簡單下載並重新命名 ==> `curl -o myfile.zip https://example.com/file.zip`
+- 呼叫 REST API (傳送 JSON)
+```
+  curl -X POST https://api.example.com/v1/user \
+     -H "Content-Type: application/json" \
+     -d '{"name": "Gemini", "role": "AI"}'
+```
+- 查看網頁回應頭 (不下載內容) ==> curl -I https://www.google.com
+- 忽略憑證錯誤並追蹤轉址 ==> curl -k -L https://internal-site.local
+
+### 小撇步： 
+- 如果你覺得參數太多記不住，可以使用 curl --help <category>。
+- 例如 curl --help http 只會顯示跟 HTTP 相關的指令
+```
+curl --help http
+Usage: curl [options...] <url>
+http: HTTP and HTTPS protocol options
+     --alt-svc <file name>  Enable alt-svc with this cache file
+     --anyauth              Pick any authentication method
+     --aws-sigv4 <provider1[:provider2[:region[:service]]]> Use AWS V4 signature authentication
+     --compressed           Request compressed response
+ -b, --cookie <data|filename> Send cookies from string/file
+ -c, --cookie-jar <filename> Write cookies to <filename> after operation
+ -d, --data <data>          HTTP POST data
+     --data-ascii <data>    HTTP POST ASCII data
+     --data-binary <data>   HTTP POST binary data
+     --data-raw <data>      HTTP POST data, '@' allowed
+     --data-urlencode <data> HTTP POST data URL encoded
+     --digest               Use HTTP Digest Authentication
+     --disallow-username-in-url Disallow username in URL
+ -D, --dump-header <filename> Write the received headers to <filename>
+     --etag-compare <file>  Pass an ETag from a file as a custom header
+     --etag-save <file>     Parse ETag from a request and save it to a file
+     --expect100-timeout <seconds> How long to wait for 100-continue
+ -f, --fail                 Fail fast with no output on HTTP errors
+     --fail-with-body       Fail on HTTP errors but save the body
+ -F, --form <name=content>  Specify multipart MIME data
+     --form-escape          Escape multipart form field/file names using backslash
+     --form-string <name=string> Specify multipart MIME data
+ -G, --get                  Put the post data in the URL and use GET
+     --haproxy-clientip     Sets client IP in HAProxy PROXY protocol v1 header
+     --haproxy-protocol     Send HAProxy PROXY protocol v1 header
+ -I, --head                 Show document info only
+ -H, --header <header/@file> Pass custom header(s) to server
+     --hsts <file name>     Enable HSTS with this cache file
+     --http0.9              Allow HTTP 0.9 responses
+ -0, --http1.0              Use HTTP 1.0
+     --http1.1              Use HTTP 1.1
+     --http2                Use HTTP/2
+     --http2-prior-knowledge Use HTTP 2 without HTTP/1.1 Upgrade
+     --http3                Use HTTP v3
+     --http3-only           Use HTTP v3 only
+     --ignore-content-length Ignore the size of the remote resource
+     --json <data>          HTTP POST JSON
+ -j, --junk-session-cookies Ignore session cookies read from file
+ -L, --location             Follow redirects
+     --location-trusted     Like --location, and send auth to other hosts
+     --max-redirs <num>     Maximum number of redirects allowed
+     --negotiate            Use HTTP Negotiate (SPNEGO) authentication
+     --no-alpn              Disable the ALPN TLS extension
+     --no-npn               Disable the NPN TLS extension
+     --ntlm                 Use HTTP NTLM authentication
+     --ntlm-wb              Use HTTP NTLM authentication with winbind
+     --post301              Do not switch to GET after following a 301
+     --post302              Do not switch to GET after following a 302
+     --post303              Do not switch to GET after following a 303
+     --proxy-http2          Use HTTP/2 with HTTPS proxy
+ -r, --range <range>        Retrieve only the bytes within RANGE
+     --raw                  Do HTTP "raw"; no transfer decoding
+ -e, --referer <URL>        Referrer URL
+     --request-target <path> Specify the target for this request
+ -z, --time-cond <time>     Transfer based on a time condition
+     --tr-encoding          Request compressed transfer encoding
+     --url-query <data>     Add a URL query part
+ -A, --user-agent <name>    Send User-Agent <name> to server
+```
