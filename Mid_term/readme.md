@@ -2,7 +2,12 @@
 - HTTP procotal(10%)
   - Http vs Https
   - Http 1.1/2.0/3.0
-  - request response header
+  - [HTTP request header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers)
+  - HTTP response header
+    - https://www.tutorialspoint.com/http/http_responses.htm 
+  - [HTTP - URL Encoding](https://www.tutorialspoint.com/http/http_url_encoding.htm)
+    - [URL Encode and Decode - Online](https://www.urlencoder.org/)
+      - `127.0.0.1:8111` ==URL encoding==> 127.0.0.1%3A8111 
   - CTF examples about Http Method
 - Web Programming ==> XAMPP(10%)
   - Client-side programing
