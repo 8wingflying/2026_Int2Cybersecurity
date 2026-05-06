@@ -25,8 +25,11 @@
 - There are two version: metasploitable3(Windows version) vs metasploitable3(Linux version)
 - The stories are not the same ......
 
+
+# M3 linux version
+
 ![](M3_linux_20260506.png)
-## M3 linux version
+
 - Metasploitable3 Walkthrough
   - https://blog.securelayer7.net/metasploitable-3-walkthrough/
   - https://blog.securelayer7.net/metasploitable-3-walkthrough-part-2/ 
