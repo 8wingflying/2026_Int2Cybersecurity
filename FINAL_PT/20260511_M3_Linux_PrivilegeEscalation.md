@@ -1,6 +1,7 @@
 # Linux_Privilege Escalation
 - https://medium.com/@samare243/metasploitable3-walkthrough-b3cf7195c497
 - https://xz.aliyun.com/news/11981
+- Linux通過su、sudo命令實現使用者切換、提權
 ```
 root@kali:~# ssh vagrant@10.0.3.5
 The authenticity of host '10.0.3.5 (10.0.3.5)' can't be established.
