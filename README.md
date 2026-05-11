@@ -3,6 +3,8 @@
 
 ![DADA.jpg](DADA.jpg)
 
+## Simple Python web server
+- python3 -m http.server 8000 --bind 0.0.0.0
 ## Grading Policy / Grading Scale
 - "The final grade is calculated based on attendance,class performance, midterms, and the final exam."
 - usual grades and class performance
