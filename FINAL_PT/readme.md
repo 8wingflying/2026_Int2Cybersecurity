@@ -9,11 +9,18 @@
     - searchsploit
     - metasploit framework
     - meterpreter
-  - AD(Att&CK and Defense)1 : elasticsearch
-  - AD(Att&CK and Defense)2 : YOUR Projects
-  - AD(Att&CK and Defense)3 : YOUR Projects
-  - AD(Att&CK and Defense)4 : YOUR Projects
-  - AD(Att&CK and Defense)5 : YOUR Projects
+  - AD(Att&CK and Defense)1 : elasticsearch(Windows version)
+  - AD(Att&CK and Defense)2 : YOUR Projects(Windows version)
+  - AD(Att&CK and Defense)3 : YOUR Projects(Linux version) [see Reference](1_20260511_M3_Linux_AttackingFTPserver.md)
+  - AD(Att&CK and Defense)4 : YOUR Projects(Linux version) [see Reference](2_20260511_M3_Linux_PrivilegeEscalation.md)
+  - AD(Att&CK and Defense)5 : YOUR Projects(Linux version)
+  - AD(Att&CK and Defense)6 :
+  - AD(Att&CK and Defense)7 :  
+
+# TWO images:
+- M3 Windows server 2008 version
+- M3 Linux version
+
 # Tools
 - metasploit framework ==> https://docs.metasploit.com/
 - nmap
@@ -26,7 +33,7 @@
 - The stories are not the same ......
 
 
-# M3 linux version vagrant/vagrant
+# M3 linux version ==> vagrant/vagrant
 
 ![](M3_linux_20260506.png)
 
@@ -34,7 +41,6 @@
   - https://blog.securelayer7.net/metasploitable-3-walkthrough/
   - https://blog.securelayer7.net/metasploitable-3-walkthrough-part-2/ 
 
-## Attack MACHINE
 
 ## Target machine ==> metasploitable3 windows server 2008
 - findstr
