@@ -3,7 +3,7 @@
 - content
   - What is Penetration test? What is red team?
   - Kali linux
-  - Methodology ==> PTES
+  - Methodology ==> [PTES](http://www.pentest-standard.org/index.php/Main_Page) 15-20 pages
   - Important tools
     - nmap
     - searchsploit
