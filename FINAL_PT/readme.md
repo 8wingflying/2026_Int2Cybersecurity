@@ -1,9 +1,10 @@
 # Final Reprot
 - Penetration Testing report
 - content
-  - What is Penetration test? What is red team?
+  - What is Penetration test? What is red team(Red teaming)?
   - Kali linux
   - Methodology ==> [PTES](http://www.pentest-standard.org/index.php/Main_Page) 15-20 pages
+    - should include discussions about [PTES Technical Guidelines](http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines) 
   - Important tools
     - nmap
     - searchsploit
